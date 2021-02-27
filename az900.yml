@@ -1,0 +1,21 @@
+auditor:
+  idioma: inglés
+  app: Tomarás la habitación de varios ángulos
+
+recomendaciones antes del examen:
+  despejar el escritorio
+  desconectar las televisiones
+  abrir todas las cortinas
+  ir al baño
+
+preguntas:
+  cantidad: 35 - 40
+  tiempo: 90 minutos
+  tiempo que tarda en promedio: 30 minutos
+  profundiza en los servicios
+  horario: Lo programamos en una fecha y una hora en específico
+  metodo: De descarte
+    características: Herramientas, y servicios que sirven para eso
+
+computadora:
+  internet: De preferencia Ethernet

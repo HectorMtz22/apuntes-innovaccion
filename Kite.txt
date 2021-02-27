@@ -1,0 +1,11 @@
+Kite
+
+Parte 1:
+Kite es una herramienta de programación que te ayuda a autocompletar de manera eficiente tu código. Esta herramienta la puedes instalar en tu editor de texto (Soporta 16 lenguajes y 16 editores de código, seguramente está tu preferido). Utiliza AI para ver las funciones que utilizas en tu código con el paso del tiempo, y te ofrece mejor autocompletado de acuerdo al nombre de función en la que estás.
+
+Parte 2:
+¿Qué modelo de implementación recomendaria?
+El modelo de implementación que utilizaría en Azure sería PaaS, entrenando mi modelo con Azure Cognitive Services, empaquetando mi proyecto y hosteandolo en una App Service de Azure. 
+
+¿Qué regiones sugerirías para albergar los diferentes recursos de lo que ellos tienen montado en sus servidores? ¿Por qué?
+Utilizaría como principal región Central US, Europa, y Asia para la óptima distribución geográfica.

@@ -1,0 +1,58 @@
+Services: 
+  Azure Advisor:
+    Te puede recomendar ciertas cosas
+    Como cosas que no se están usando
+    Sugerencias
+  
+  Azure Monitor:
+    Conocer más a fondo y de forma específica la información
+
+  Azure Health Services:
+    Sirve para conocer fallos en nuestra implementación
+
+Administrar y Configurar:
+  Azure Portal y Mobile App:
+    Este tipo de GUI la vimos.
+    No puedes automatizar 
+
+  Azure PowerShell & CLI:
+    PowerShell:
+      Lenguaje por defecto en Windows 
+    
+    CLI: 
+      Basado en Linux (UNIX)
+      Lenguaje Bash
+    
+  Azure ARM Templates:
+    ARM:
+      Significa "Azure Resource Manager"
+    Este tipo nos ayuda a automatizar.
+    Es una plantilla donde configuras los tipos de recursos
+    Basado en JSON
+  
+Serverless:
+  Azure Functions:
+    Código para subir en la nube
+    Se consume hasta que se llama a la API
+
+  Azure Logic Apps:
+    No requiere código (Aquí no programas)
+    Tiene una interfaz
+    Ventaja de varios servicios externos integrados
+
+IoT:
+  Azure IoT Hub:
+    Conectar los sensores
+    Cuando tenemos dispositivos físicos
+    Recibe y almacena los datos de nuestros disp.
+
+  Azure IoT Central:
+    Extensión del Hub
+    Complementa y configura a través de un dashboard
+    Interfaz Gráfica 
+
+  Azure Sphere:
+    Dispositivo específico
+    Temas de seguridad también
+    Garantiza la seguridad
+
