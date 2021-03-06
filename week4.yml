@@ -1,16 +1,95 @@
 4 Características de seguridad general y seguridad de red:
-  Security Center:
+  Security Center: 
+  Nos da recomendaciones acerca de la seguridad de Azure
 
   KeyVault:
+    Puedes almacenar códigos de seguridad, like 1 Password
+    Claves de API
 
   Sentinel:
+    Recopila distintas herramientas de otros servicios aparte de Azure
+
+  Azure Dedicated Host:
+    Tener un servidor físico dedicado
+    Muy enfocado por cuestiones legales como los datos
+    Ejemplo: 
+      Aplicación en un banco
+
 
   Firewall DDoS:
 
-5 Identidad, Gobernanza, Privacidad y Cumplimiento:
-  Servicios de identidad de Azure
-  Estrategia de Gobernanza
-  Estándares de privacidad, cumplimiento y protección de datos
+Red:
+  Azure se encarga de todo esto 
+  Microsoft te asegura hasta cierto punto
 
-6 Acuerdos de Nivel de Servicio: Planeación y administración de Costos
-  Acuerdos de Nivel de Servicio
+5 Identidad, Gobernanza, Privacidad y Cumplimiento:
+  Servicios de identidad de Azure:
+  Autenticacion:
+    Solicitar credenciales legítimas para saber si la persona es la que dice ser
+  Autorización:
+    Hace referencia al nivel más bajo;
+    Todo lo que pueden hacer los usuarios autenticados
+
+  Azure Active Directory:
+    Es la autenticación de los usuarios
+    También lo puedes instalar en local
+  
+  SSO:
+    La capacidad de autenticarte una vez y poder acceder a todos los niveles
+
+  Estrategia de Gobernanza:
+    Cloud Framework:
+      Te dice paso a paso el como empezar esta estrategia de Gobernanza
+      Controlar todos los entornos de la nube
+
+    Facturación:
+      Organizar diferentes perfiles de facturación
+
+  Acceso basado en roles:
+    Usuarios
+    Grupos de Acceso:
+      Sin Acceso
+      Lectura
+      Colabores
+      Propietarios
+
+  Azure Policy:
+    Implementar lo anterior dentro de una política
+    Asignar las directivas
+    Agrupar todo en estas directivas
+    
+  BluePrint:
+    Es un conjunto de Azure Policies las cuales te puede servir si tienes varias regiones
+    Agrupar en dev y production
+
+
+  Estándares de privacidad, cumplimiento y protección de datos:
+    Centro de confianza:
+      Podemos encontrar las normas globales, internacionales
+      Empresas
+      Regiones
+      Regiones especiales (China y EEUU)
+
+    Declaración de Privacidad:
+      Esto es otra cosa, la cual se puede referir a Azure, Microsoft, etc.
+    
+
+6 Acuerdos de Nivel de Servicio: 
+  Planeación y administración de Costos:
+    Calculadora de Costos:
+      Te sirve para ver cuanto vas a gastar en los recursos
+
+
+    Acuerdos de Nivel de Servicio:
+      Contrato Formal de cuanto tiempo debe estar implementado
+      Se mide en porcentaje (99.9%)
+      Nos asegura el tiempo que va a estar implementado
+
+    Ciclo de vida Azure:
+      Está enfocado a cada uno de los servicios
+      Depende de cada recurso
+      Define la forma en que tu creas cierto recurso
+
+
+Tips:
+  Cada región puede tener distintos precios
