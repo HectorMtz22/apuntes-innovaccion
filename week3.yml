@@ -1,1 +1,28 @@
-Las principales soluciones:
+# Servicios de supervisión en Azure
+
+Azure Advisor:
+  Este sistema te ayuda a identificar cosas que puedes mejorar, pero solo te da mensajes
+  Está por defecto en Azure Portal
+  También puedes llamarlo con una API
+
+  Analiza la configuración y el uso de recursos
+  Sugerencias de como optimizar algunas cosas (5 apartados)
+  Sirve para OPTIMIZACION
+
+Azure Monitor:
+  Este servicio te ayuda a tener datos y estadísticas de tus recursos
+  Lo puedes sincronizar y ver tus datos en Power Bi
+
+  Seguimiento de tus máquinas virtuales o instancias de un contenedor
+  También sirve para DB
+  Cualquier cosa que tenga que ver con tus recursos, como las implementaciones
+
+Azure Service Health:
+  Aquí aparecerá si se necesita hacer un reinicio para que escojas la hora más conveniente
+  El estado de los centros de datos y si algo no funciona correctamente te podrían avisar también
+
+  Control de Azure, como los servicios y regiones de los que dependa
+  Próximas interrupciones y eventos planeados
+
+Application Insights: Almacena información de eventos personalizados
+  Corre por segundo plano Azure Monitor
