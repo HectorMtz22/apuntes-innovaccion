@@ -26,3 +26,25 @@ Azure Service Health:
 
 Application Insights: Almacena información de eventos personalizados
   Corre por segundo plano Azure Monitor
+
+#Servicios para la implementación de recursos
+
+Azure Portal: Es la interfaz por defecto
+  Sirve cuando queremos hacer cosas individuales o explorar
+
+Azure Mobile App:
+  Sirve cuando no tenemos una PC y necesitamos revisar el estado de nuestros recursos
+  Es muy útil si no se encuentra en la oficina
+
+Azure CLI:
+  Este servicio se encuentra para los usuarios que necesiten implementar con código en Bash
+  También está la versión web
+  Puedes automatizar
+
+Azure Powershell:
+  Este servicio nos sirve cuando queremos implementar con código en PowerShell
+  También hay una versión web de esto
+
+Azure Resource Manager:
+  La diferencia entre el CLI o PowerShell es que este es código declarativo
+  Tienes más confianza a la hora de implementar recursos en paralelo
