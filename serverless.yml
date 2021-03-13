@@ -1,0 +1,9 @@
+Azure functions:
+  Sirven para programar código que no necesite estar encendida todo el tiempo
+  Nos sirve principalmente para cosas en segundo plano como el backend
+  En este servicio nosotros hacemos el código
+  No se necesita un servidor en todo momento
+  Solo te cobran por las veces que se ejecuta
+
+Azure Logic Apps: Sirve para orquestar una solución sin código
+  Se basa en conectores o diagramas de flujo (Tiene interfaz)
