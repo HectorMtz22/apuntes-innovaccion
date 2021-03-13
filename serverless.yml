@@ -4,6 +4,13 @@ Azure functions:
   En este servicio nosotros hacemos el código
   No se necesita un servidor en todo momento
   Solo te cobran por las veces que se ejecuta
+  Usos:
+    Cuando se tienen programadores
+    Cuando ya hay una lógica existente en algun lenguaje de programación
 
 Azure Logic Apps: Sirve para orquestar una solución sin código
   Se basa en conectores o diagramas de flujo (Tiene interfaz)
+  Usos:
+    Cuando no se tienen desarrolladores cerca, la mejor opción es esta
+    Cuando se quieren orquestar varios servicios
+
