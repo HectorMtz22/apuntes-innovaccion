@@ -1,0 +1,24 @@
+Azure Dedicated Host:
+  - Maquinas Virtuales:
+    Son las que ya conocemos de toda la vida.
+    Contienen:
+      Nombre
+      ID
+      Tamaño
+
+  - Host Dedicado:
+    Este host se reserva solo para tí, por lo que no estás compartiendo un servidor físico.
+    Se usa sobretodo para organizaciones reguladas que necesiten un host dedicado.
+    Contienen:
+      Nombre
+      Id. del recurso
+      Dominio
+      SKU
+
+  - Grupo Host:
+    Este elemento agrupa los hosts dedicados
+    Contienen:
+      Nombre
+      Región y zonas de disponibilidad
+      Doinios
+    
