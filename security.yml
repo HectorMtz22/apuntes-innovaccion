@@ -1,0 +1,38 @@
+Azure Security Center:
+  Visibilidad del nivel de seguridad en todos los servicios
+  (Directivas y controles de seguridad)
+
+  Predicción
+  Prevención
+  Respuesta a amenazas de seguridad
+
+  Se te da una puntuación de seguridad:
+    Notifica el estado actual
+    Mejora el nivel de seguridad 
+    Compara con los puntos de referencia
+
+  Acceso Just In Time
+  Control de aplicación en tu máquina virtual
+  Supervisión de patrones de tráfico de internet de los grupos de seguridad de red (NSG)
+  Integridad de los archivos
+
+Azure Sentinel:
+  Recopilar datos de todos los usuarios, dispositivos o aplicaciones
+  Investigar amenazas
+  Responder a incidentes rápidamente
+
+  Se utiliza para detectar amenazas, ya sea
+    - Análisis integrados: Proporcionado por analistas de Microsoft
+    - Análisis personalizados: Crear nuestros propios criterios
+
+  Libros de Azure Monitor:
+    Nos sirven para automatizar las respuestas a las amenazas
+
+Azure Key Vault:
+  Proporciona almacenamiento seguro de "secretos", como:
+    - tokens, contraseñas
+    - certificados
+    - claves de cifrado
+
+
+
