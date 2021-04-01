@@ -1,0 +1,23 @@
+#Azure DDoS Protection
+
+Niveles de Servicio:
+  Basic:
+    - Habilitado de forma automática sin coste
+    - Mitigación de tiempo real en ataques comunes
+    - Garantiza que la infraestructura de Azure no se afecte a gran escala
+
+  Estándar:
+    - Ofrece funcionalidades adicionales de mitigación a Azure Virtual Network
+    - Supervisión del tráfico siempre activa
+    - Las directivas de protección se ajustan a través de supervisión de tráfico dedicado
+      (También tiene algoritmos de Machine Learning)
+
+Tipos de ataques que ayuda a evitar:
+  - Volumétricos:
+    Tráfico aparentemente legítimo
+
+  - Protocolo:
+    Vuelven un destino inaccesible al aprovechar una vulnerabilidad en la pila del protocolo de capa 3 y 4
+
+  - Nivel de recurso:
+    Van dirigidos a las aplicaciones web para interumpir la transmisión entre hosts
