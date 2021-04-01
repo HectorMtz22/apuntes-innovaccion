@@ -1,0 +1,20 @@
+# Grupos de seguridad en red (NSG)
+
+Definición:
+  - Permite filtrar el tráfico de nuestra red interna
+  - Podemos considerarlo como un firewall interno
+  - Podemos especificar las direcciones IP, origen y destino, puerto y protocolos
+
+Especificación: { 
+  Nombre: único dentro del grupo de seguridad 
+  Priority: 100 - 4096. Entre más bajo, mayor prioridad
+  Origen o destino: IP's, etiqueta de servicio o grupo de seguridad de apps
+  Protocolo: TCP, UDP o cualquiera
+  Dirección: Si la regla es entrante o saliente
+  Intervalo de puertos: Un único puerto o intervalo
+  Acción: Permitir o Denegar
+}
+
+Al crear un grupo de seguridad se crean reglas predeterminadas
+No las podemos quitar
+Sí podemos invalidarlas con reglas de mayor nivel
