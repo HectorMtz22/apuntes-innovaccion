@@ -1,0 +1,28 @@
+Capas de defensa en profundidad:
+  1. Seguridad Física: Protección del Hardware
+  2. Identidad y Acceso: Controla el acceso a la infraestructura y control de cambios
+  3. Perimetro: Protección frente a ataques DDoS
+  4. Red: Limita la comunicación entre los recursos
+  5. Proceso: Protege el acceso a máquinas virtuales
+  6. Aplicación: Garantiza que las aplicaciones sean seguras
+  7. Datos: Controla acceso a los datos
+
+Posición de Seguridad:
+  Capacidad de identificar y proteger tus recursos de amenazas de seguridad.
+  - Confidencialidad
+  - Integridad
+  - Disponibilidad
+
+Azure Firewall:
+  - Incluye Alta Disponibilidad y Escalabilidad sin restricciones
+  - Proporciona una ubicación central para las directivas
+  - Usa direccion IP estática
+  - Se integra con Azure Monitor
+
+    Se implementa normalmente en una red virtual central
+    Tiene el contexto de toda la red, no solo los paquetes individuales
+
+  Tipos de Reglas:
+    - Aplicacion que definen los nombres de dominio completos (FQDN) a los que puede acceder una subred
+    - Red, que definen la dirección de origen, el protocolo, el puerto y la dirección de destino
+    - Traducción de direcciones de red (NAT) que definen los puertos y las direcciones IP de destino
