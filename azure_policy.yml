@@ -1,0 +1,19 @@
+# Azure Policy
+
+Definición de Directiva:
+  Estas directivas nos ayudan a mantener ciertas reglas como:
+    - SKU de máquina virtual permitidas
+    - Ubicaciones permitidas
+    - MFA (Autenticación Multi Factor)
+    - CORS
+    - Actualizaciones del sistema
+
+Asignación:
+  Se le pueden asignar directivas a:
+    - Recursos
+    - Grupos de Recurso
+    - Suscripciones
+
+Revisar: Se evalúan las directivas y se da un recuento en cada recurso si se cumplen
+
+Iniciativa: Grupo de directivas en Azure Policy
