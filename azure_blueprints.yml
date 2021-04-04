@@ -1,0 +1,17 @@
+# Azure BluePrints
+#
+Definición:
+  - Se puede definir como un conjunto repetible de herramientas de gobernanza y recursos que una organización necesita.
+
+Organización:
+  - Asignación de roles
+  - Asignación de directivas
+  - Plantillas de Azure Resource Manager
+  - Grupos de Recursos
+
+- La relación entre la definición del plano técnico y su asignación permanece
+
+Artefactos de plano técnico:
+  - No pueden tener parámetros
+  - Son directivas que no requieren ninguna configuración adicional
+    O no necesitan simplemente
