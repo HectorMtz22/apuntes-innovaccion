@@ -1,0 +1,26 @@
+# Calculadora de Costo Total de Propiedad
+Definición:
+  - Te ayuda a calcular los costos que se ahorra al hacer funcionar la solución en Azure
+  - Te da un estimado de lo que te va a costar por elegir la nube de Azure
+
+Forma de Trabajo:
+  - Definir las cargas de trabajo
+  - Ajustar presupuestos
+  - Ver el informe
+
+Cargas de Trabajo:
+  - Servidores
+  - Bases de datos
+  - Storage
+  - Redes
+
+Ajustar Presupuestos:
+  - Redundancia y licencias de Software
+  - Costos operativos, incluye:
+      - Precio de Electricidad por kWh
+      - Tarifa por hora para la administración TI
+      - Costo de mantenimiento de la red.
+
+Ver el Informe:
+  - Seleccione la opción de tiempo estimado
+  - La calculadora generará un informe en una gráfica de pastel.
